@@ -1,0 +1,11 @@
+/* 
+* Hero styles
+*/
+.hero{
+ min-width: 100vh;
+ height: 100%;
+} 
+.hero__title{}
+.hero__image{}
+.hero__content{}
+.hero__scroll-down{}
