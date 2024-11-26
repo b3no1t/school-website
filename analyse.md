@@ -1,11 +1,13 @@
 # Analyse préalable à l'integration HTML
 
+> complement au pdf
+
 ## Structure HTML
 
 - 3 parties principales :header, main et footer
 - 1-`FOOTER` : footer nav et footer informations
 - 2-`HEADER` : header logo et header nav et header toolbar
-- 3-`MAIN` : main services et main about
+- 3-`MAIN` : main, section.services et main section.about
 
 ### Arborescence des elements HTML
 
