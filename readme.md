@@ -4,7 +4,7 @@ Assets:
 
 - Title: Georgia, serif;
 - text: Ibm plex sans, sans-serif;
- Images: fourni dans le projet
+- Images: fourni dans le projet
 
 ## Homepage
 
