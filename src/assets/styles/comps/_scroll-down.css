@@ -1,0 +1,39 @@
+/**  Scroll down component */
+
+.scroll {
+ width: 60px;
+ height: 60px;
+ border: 2px solid var(--secondary-ui-color);
+ border-radius: 50%;
+ position: relative;
+ animation: down 1.5s infinite;
+ box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
+ &::before {
+   content: "";
+   position: absolute;
+   top: 15px;
+   left: 18px;
+   width: 18px;
+   height: 18px;
+   border-left: 2px solid var(--secondary-ui-color);
+   border-bottom: 2px solid var(--secondary-ui-color);
+   transform: rotate(-45deg);
+   box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
+ }
+}
+/* Animation scroll down */
+@keyframes down {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
