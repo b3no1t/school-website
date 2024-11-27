@@ -1,0 +1,29 @@
+/** LAYOUT GRID  */
+/**
+ * The .wrapper class is a container that centers its content and 
+ * adapts to different screen sizes. It uses a grid layout to organize 
+ * its child elements.
+ * 
+ * Properties:
+ * - width: Sets the width of the container to 100% of its parent element.
+ * - max-width: Limits the maximum width of the container to 1440px.
+ * - margin: Centers the container horizontally by setting auto margins.
+ * - display: Sets the container to use a grid layout.
+ * - grid-template-columns: Defines a single column layout with flexible width.
+ * - grid-template-rows: Defines three equal rows within the grid.
+ */
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+/* header{}
+main{}
+footer{}
+ */

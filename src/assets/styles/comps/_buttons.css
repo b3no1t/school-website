@@ -2,7 +2,39 @@
 * Buttons
 */
 
-.btn{}
-.btn__lg{}
-.btn__sm{}
-.btn__cta{}
+.btn{
+  --gap-inline: 1rem;
+  --gap-block: 0.75rem;
+  --cta-size: 1.5rem;
+
+  padding: var(--gap-block) var(--gap-inline);
+  margin: var(--gap-block) var(--gap-inline);
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  transition: padding 0.3s ease;
+  transform-origin: center;
+  text-align: center;
+ &:hover{
+  background-color: var(--secondary-color);
+  transform-origin: center;
+  padding: calc( var(--gap-block)* 2 ) calc( var(--gap-inline) * 2);
+ }
+}
+.btn__lg{
+ --cta-size: 1.25rem;
+ font-size: var(--cta-size);
+}
+.btn__sm{
+ --cta-size: .8rem;
+ font-size: var(--cta-size);
+}
+.btn__cta{
+  --gap-inline: 2rem;
+  --gap-block: 0.75rem;
+  --cta-size: 2rem;
+  padding: var(--gap-block) var(--gap-inline);
+  font-size: var(--cta-size);
+}
