@@ -3,42 +3,42 @@
 */
 
 .btn {
-  --gap-inline: 1rem;
-  --gap-block: 0.75rem;
-  --cta-size: 1.5rem;
-  --ease-scroll: 0.455, 0.03, 0.515, 0.955;
-  --shadow-medium: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0px 2px 4px -1px rgba(0, 0, 0, 0.06);
-margin-bottom: 1rem;
-  padding:var(--gap-block) var(--gap-inline);
-  transform: scale(1);
-  border-radius: 0.5rem;
-  background-color: var(--primary-color);
-  color: white;
-  text-decoration: none;
-  font-weight: 900;
-  transition: transform 0.3s cubic-bezier(0.47, 0, 0.35, 1.06);
-  transform-origin: center center;
-  text-align: center;
-  box-shadow: var( --shadow-medium);
-  &:hover {
-    background-color: var(--secondary-color);
-    transform: scale(1.5) ;
-    /* padding-block: calc(var(--gap-block) * 2) calc(var(--gap-inline) * 2); */
-  }
+ --gap-inline: 1rem;
+ --gap-block: 0.75rem;
+ --cta-size: 1.5rem;
+ --ease-scroll: 0.455, 0.03, 0.515, 0.955;
+ --shadow-medium: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+ margin-bottom: 1rem;
+ max-width: 22rem;
+ padding: var(--gap-block) var(--gap-inline);
+ transform: scale(1);
+ border-radius: 0.5rem;
+ background-color: var(--primary-color);
+ color: white;
+ text-decoration: none;
+ font-weight: 900;
+ transition: transform 0.3s cubic-bezier(0.47, 0, 0.35, 1.06);
+ transform-origin: center center;
+ text-align: center;
+ box-shadow: var(--shadow-medium);
+ &:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.5);
+  /* padding-block: calc(var(--gap-block) * 2) calc(var(--gap-inline) * 2); */
+ }
 }
 .btn__lg {
-  --cta-size: 1.25rem;
-  font-size: var(--cta-size);
+ --cta-size: 1.25rem;
+ font-size: var(--cta-size);
 }
 .btn__sm {
-  --cta-size: 0.8rem;
-  font-size: var(--cta-size);
+ --cta-size: 0.8rem;
+ font-size: var(--cta-size);
 }
 .btn__cta {
-  --gap-inline: 2rem;
-  --gap-block: 0.75rem;
-  --cta-size: 2rem;
-  padding: var(--gap-block) var(--gap-inline);
-  font-size: var(--cta-size);
+ --gap-inline: 2rem;
+ --gap-block: 0.75rem;
+ --cta-size: 2rem;
+ padding: var(--gap-block) var(--gap-inline);
+ font-size: var(--cta-size);
 }
