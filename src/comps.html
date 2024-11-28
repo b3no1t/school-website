@@ -4,23 +4,59 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="./assets/styles/app.css">
+ <style>
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+  .wrapper{
+   max-width: 768px;
+   margin: 0 auto;
+  }
+ </style>
  <title>Composants </title>
 </head>
 <body>
  
 <div class="wrapper">
 
-<h2>BUTONS</h2>
-<a href="#" class="btn btn__sm">Button SM</a>
-<a href="#" class="btn btn__lg">Button LG</a>
-<a href="#" class="btn btn__cta">Button CTA</a>
-<hr>
-<h2>Icons</h2>
-<p>mousse scroll</p>
+ <h2>Buttons</h2>
+ <a href="#" class="btn btn__sm" aria-label="button" >Button SM</a>
+ <a href="#" class="btn btn__lg" aria-label="button" >Button LG</a>
+ <a href="#" class="btn btn__cta"aria-label="button" >Button CTA</a>
+ <hr>
+ <h2>Icons</h2>
+ <p>mousse scroll</p>
 
- <a href="#services" class="scroll-down">
-  <div class="scroll"></div>
- </a>
-
+  <a href="#services" class="scroll-down">
+   <div class="scroll"></div>
+  </a>
+  <hr>
+  <section>
+   <h2>Cards</h2>
+   <div class="cards">
+    <figure class="card card__image" style="background-image:url(var(--place-holder-image))">
+     <figcaption class="card__content">
+     <h3 class="card__title">card title</h3>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae laboriosam ad aperiam temporibus quo rerum nesciunt commodi, excepturi doloremque.</p>
+     <a href="#" class="card__cta">card cta</a>
+    </figcaption>
+   </figure>
+    <figure class="card card__image">
+     <figcaption class="card__content">
+     <h3 class="card__title">card title</h3>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae laboriosam ad aperiam temporibus quo rerum nesciunt commodi, excepturi doloremque.</p>
+     <a href="#" class="card__cta">card cta</a>
+    </figcaption>
+   </figure>
+    <figure class="card card__image">
+     <figcaption class="card__content">
+     <h3 class="card__title">card title</h3>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae laboriosam ad aperiam temporibus quo rerum nesciunt commodi, excepturi doloremque.</p>
+     <a href="#" class="card__cta">card cta</a>
+    </figcaption>
+   </figure>
+   </div>
+  </section>
+</div>
 </body>
 </html>

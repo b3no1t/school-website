@@ -1,8 +1,26 @@
 /*
 * Card
 */
-.card{}
-.card__image{}
-.card__title{}
-.card__content{}
+.card{
+ display: flex;  
+ flex-direction: column;
+ height: 100%;
+ justify-content: flex-end;
+ min-height: 28em;
+ box-shadow: var(--shadow-medium);
+}
+.card__image{
+ background-image: url(https://via.assets.so/movie.png?id=1&q=95&w=360&h=430&fit=fill);
+ background-size: cover;
+ background-position: center;
+ height: 100%;
+}
+.card__title{
+ font-size: var(--fsz-h2);
+}
+.card__content{
+ background: var(--primary-ui-color);
+ padding: 1rem;
+
+}
 .card__cta{}
