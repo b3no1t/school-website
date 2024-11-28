@@ -1,28 +1,35 @@
 /**  Scroll down component */
 
 .scroll-down {
-  height: 160px;
-  width: 80px;
- border: 4px solid var(--secondary-ui-color);
- border-radius: 50px;
- position: relative;
- /* animation: down 1.5s infinite; */
- box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
-
- &::after{
+  height: 80px;
+  width: 40px;
+  border: 2px solid var(--secondary-ui-color);
   border-radius: 50px;
-  width: 4px;
-  height: 2rem;
-  border: 4px solid rebeccapurple;
-  content:"";
-  position: absolute;
-  top: 16px;
-  left: 45%;
- animation: down 1.5s infinite;
+  position: relative;
+  /* animation: down 1.5s infinite; */
+  box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
 
- }
+  &::after {
+    border-radius: 50px;
+    height: 1.25rem;
+    border: 2px solid gray;
+    width: 2px;
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 45%;
+    animation: down 1.5s infinite;
+  }
 }
-/* Animation scroll down */
+.scroll-down span {
+  text-align: center;
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: var(--secondary-ui-color);
+  font-size: 0.8rem;
+}
 @keyframes down {
   0% {
     opacity: 0;
