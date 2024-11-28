@@ -1,24 +1,25 @@
 /**  Scroll down component */
 
-.scroll {
- width: 60px;
- height: 60px;
- border: 2px solid var(--secondary-ui-color);
- border-radius: 50%;
+.scroll-down {
+  height: 160px;
+  width: 80px;
+ border: 4px solid var(--secondary-ui-color);
+ border-radius: 50px;
  position: relative;
- animation: down 1.5s infinite;
+ /* animation: down 1.5s infinite; */
  box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
- &::before {
-   content: "";
-   position: absolute;
-   top: 15px;
-   left: 18px;
-   width: 18px;
-   height: 18px;
-   border-left: 2px solid var(--secondary-ui-color);
-   border-bottom: 2px solid var(--secondary-ui-color);
-   transform: rotate(-45deg);
-   box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
+
+ &::after{
+  border-radius: 50px;
+  width: 4px;
+  height: 2rem;
+  border: 4px solid rebeccapurple;
+  content:"";
+  position: absolute;
+  top: 16px;
+  left: 45%;
+ animation: down 1.5s infinite;
+
  }
 }
 /* Animation scroll down */

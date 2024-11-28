@@ -7,7 +7,7 @@
  --gap-block: 0.75rem;
  --cta-size: 1.5rem;
  --ease-scroll: 0.455, 0.03, 0.515, 0.955;
-
+ 
  margin-bottom: 1rem;
  padding: var(--gap-block) var(--gap-inline);
  transform: scale(1);
@@ -18,7 +18,7 @@
  font-weight: 900;
  transition: transform 0.3s cubic-bezier(0.47, 0, 0.35, 1.06);
  transform-origin: center center;
- text-align: center;
+ width: fit-content;
  box-shadow: var(--shadow-medium);
  &:hover {
   background-color: var(--secondary-color);
