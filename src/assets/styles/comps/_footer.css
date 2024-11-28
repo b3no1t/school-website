@@ -2,10 +2,22 @@
 * footer 
 */
 
-footer{}
-footer section{} 
-.footer__logo{}
-.footer__nav{}
-.section__nav{}
-.section__informations{}
+footer{
+ min-height: 250px;
+}
+
 .footer__copyright{}
+
+
+.footer__wrapper{
+ width: 100vw;
+
+}
+.footer__nav{
+display: flex;
+flex-direction: column;
+ background-color: var(--tertiary-ui-color);
+}
+.footer__informations{
+ background-color: var(--secondary-ui-color);
+}
