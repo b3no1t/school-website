@@ -5,7 +5,7 @@
 .btn {
  --gap-inline: 1rem;
  --gap-block: 0.75rem;
- --cta-size: 1.5rem;
+ --cta-size: 1.2rem;
  --ease-scroll: 0.455, 0.03, 0.515, 0.955;
  
  margin-bottom: 1rem;
@@ -22,14 +22,14 @@
  box-shadow: var(--shadow-medium);
  &:hover {
   background-color: var(--secondary-color);
-  transform: scale(1.5);
+  transform: scale(1.15);
   /* padding-block: calc(var(--gap-block) * 2) calc(var(--gap-inline) * 2); */
  }
 }
 .btn__lg {
  --cta-size: 1.25rem;
  font-size: var(--cta-size);
-
+font-weight: normal;
 }
 .btn__sm {
  --cta-size: 0.8rem;
@@ -39,7 +39,7 @@
 .btn__cta {
  --gap-inline: 2rem;
  --gap-block: 0.75rem;
- --cta-size: 2rem;
+ --cta-size: 1.8rem;
  padding: var(--gap-block) var(--gap-inline);
  font-size: var(--cta-size);
 }

@@ -63,20 +63,29 @@
 
 }
 .informations{
-  & a:first-child::before{
-    content:"";
-    background-image: url(../../imgs/icon-mail.svg);
+  & a:first-child,& a:last-child{
+    padding-left: 1rem;
+    position: relative;
+  }
+ 
+  & a:first-child::before,
+  & a:last-child::before{
+    /** Le contenu est une chaîne vide, créant ainsi un espace réservé pour le style. */
+    content:" ";
     background-repeat: no-repeat;
     background-position: center center;
     width: 20px;
     height: 20px;
+    display:block;
+    position: absolute; 
+    top: .2rem;
+    left: -.5rem;
+  }
+  & a:first-child::before{
+    background-image: url(../../imgs/icon-mail.svg);
+
   }
   & a:last-child::before{
-    content:"";
     background-image: url(../../imgs/icon-phone.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 20px;
-    height: 20px;
   }
 }

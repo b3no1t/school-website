@@ -12,7 +12,7 @@
 
 /** UI */
  --primary-ui-color: #f6f0E1;
- --primary-ui-color-50: hsla(43, 54%, 92%, 0.482);
+ --primary-ui-color-50: hsla(43, 54%, 92%, 0.75);
  --secondary-ui-color: #3E4551;
  --tertiary-ui-color: #2C3037;
 
@@ -20,9 +20,12 @@
  --shadow-medium: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); 
 
  /** Font-Size */
- --fsz-h1: 3rem;
- --fsz-h2: 1.8rem;
- --fsz-h3: 1.5rem;
+ --fsz-hero-title: 5.5rem;
+ --fsz-h1: 2rem;
+ --fsz-h2: 4rem;
+ --fsz-h3: 2.23rem;
+ --fsz-h4: 2rem;
+ --fsz-hero-content: 2rem;
 
  /** Spacing  */
  --space: 1rem;
