@@ -2,23 +2,35 @@
 * Frame 
 */
 
-.frame{
- width: 100%;
- height: 100%;
- display: grid;
- place-items: center;
+.frame {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
 }
-.frame__image{
- background: url(../../imgs/qui.jpg);
- background-size: cover;
+.frame__image {
+	background: url(../../imgs/qui.jpg);
+	background-size: cover;
 }
-.frame__title{}
-.frame__content{
- background-color: #ffffff94;
- height: 90%;
- width: 95%;
- padding: 4rem;
-
- 
+.frame__title {
 }
-.frame__cta{}
+.frame__content {
+ box-sizing: border-box;
+	background-color: #ffffff;
+	height: 92%;
+	width: 92%;
+	padding: 4rem;
+ & p{
+ 	font-size: 1.1rem;
+ 	line-height: 1.35rem;
+ 	letter-spacing: 0.25px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+ }
+}
+.frame__cta {
+	margin: 0 auto;
+ margin-bottom: 1rem;
+	width: 200px;
+	display: block;
+}

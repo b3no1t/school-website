@@ -1,1 +1,15 @@
 /** CONTENT  */
+
+.about h3 {
+	font-family: "ibm plex sans", sans-serif;
+}
+.about p {
+	line-height: 1.5;
+	font-family: "ibm plex sans", sans-serif;
+	text-wrap: balance;
+}
+.grid-1-2 > div:first-child {
+	padding-right: var(--space);
+	max-width: 38ch;
+	text-wrap: pretty;
+}

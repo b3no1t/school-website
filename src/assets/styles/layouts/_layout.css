@@ -13,36 +13,34 @@
  * - grid-template-rows: Defines three equal rows within the grid.
  */
 .wrapper {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+	width: 100%;
+	/* max-width: 1440px; */
+	max-width: 120ch;
+	margin: 0 auto;
 
-  display: grid; 
+	display: grid;
 
-  grid-template-columns: 1fr;
-  grid-gap:var(--space);
-
+	grid-template-columns: 1fr;
+	grid-gap: var(--space);
 }
 header,
 main,
-footer{
-  grid-column-start: 1;
-  grid-column-end: -1;
+footer {
+	grid-column-start: 1;
+	grid-column-end: -1;
 }
-.container{
- margin-inline: 3rem;
+.container {
+	margin-inline: 3rem;
 }
-.hero .container{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    text-align: center;
-
+.hero .container {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
 }
 .grid-1-2 {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-
+	display: grid;
+	grid-template-columns: 2fr 3fr;
 }

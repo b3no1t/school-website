@@ -7,26 +7,23 @@
  * Le paramètre « layer(...) » indique que les fichiers css sont ajoutés à la liste des @layer par leurs nom.
  * Le css h5bp fait partie de projet Html boiler-plate, voir le fichier css.
  */
- @import "settings/_variables.css";
- @import "base/_reset.css"                      layer(reset);
- @import "base/_h5bp.css"                       layer(reset);
- @import "base/_fonts.css"                      layer(fonts);
- @import "comps/_cards.css"                      layer(comps);
- @import "comps/_card.css"                      layer(comps);
- @import "layouts/_layout.css"                  layer(layout);
- @import "comps/_header.css"               layer(comps);
- @import "comps/_frame.css"               layer(comps);
- @import "comps/_title.css"               layer(comps);
- @import "comps/_nav.css"                  layer(comps);
- @import "comps/_buttons.css"              layer(comps);
- @import "comps/_content.css"              layer(comps);
- @import "comps/_toolbar.css"              layer(comps);
- @import "comps/_hero.css"                 layer(comps);
- @import "comps/_scroll-down.css"              layer(comps);
- @import "layouts/_sections.css"                layer(layout);
- @import "comps/_footer.css"               layer(comps);
-
-
+@import "settings/_variables.css";
+@import "base/_reset.css" layer(reset);
+@import "base/_h5bp.css" layer(reset);
+@import "base/_fonts.css" layer(fonts);
+@import "comps/_cards.css" layer(comps);
+@import "comps/_card.css" layer(comps);
+@import "layouts/_layout.css" layer(layout);
+@import "comps/_header.css" layer(comps);
+@import "comps/_frame.css" layer(comps);
+@import "comps/_title.css" layer(comps);
+@import "comps/_nav.css" layer(comps);
+@import "comps/_buttons.css" layer(comps);
+@import "comps/_content.css" layer(comps);
+@import "comps/_toolbar.css" layer(comps);
+@import "comps/_hero.css" layer(comps);
+@import "comps/_scroll-down.css" layer(comps);
+@import "layouts/_sections.css" layer(layout);
+@import "comps/_footer.css" layer(comps);
 
 @layer reset, layout, fonts, comps;
-
