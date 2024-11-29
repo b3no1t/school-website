@@ -1,11 +1,15 @@
 /** Navigation  */
 
+
 nav{
  display: flex;
- justify-content: space-between;
+ justify-content: flex-end;
  align-items: center;
+ width: 100%;
+ 
 }
 text.baseline {
+  /* svg logo */
   text-anchor: start;
   font-size: .8rem;
 }

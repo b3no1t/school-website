@@ -2,10 +2,33 @@
 * Hero styles
 */
 .hero{
- min-width: 100vh;
- height: 100%;
+padding-top: var(--space );
+ height: 100vh;
+
 } 
-.hero__title{}
-.hero__image{}
-.hero__content{}
+.hero__navigation{
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+}
+.hero__title{
+ color:white;
+ font-size: var(--fsz-h1);
+}
+.hero__image{
+ background-position: center;
+ background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0.5) , hsla(0, 0%, 0%, 0.576) ), url(../../imgs/hero-bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.hero__content{
+ max-width: 55ch ;
+ min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  & a {color: white}
+}
 .hero__scroll-down{}

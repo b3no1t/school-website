@@ -3,16 +3,17 @@
 .scroll-down {
   height: 80px;
   width: 40px;
-  border: 2px solid var(--secondary-ui-color);
+  border: 2px solid var(--primary-ui-color-50);
   border-radius: 50px;
   position: relative;
   /* animation: down 1.5s infinite; */
   box-sizing: border-box; /* Veille à ce que la largeur et la hauteur incluent le border et le padding. */
+  margin-bottom: var(--space);
 
   &::after {
     border-radius: 50px;
     height: 1.25rem;
-    border: 2px solid gray;
+    border: 2px solid var(--primary-ui-color-50);
     width: 2px;
     content: "";
     position: absolute;

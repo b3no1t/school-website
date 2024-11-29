@@ -20,4 +20,6 @@
  --fsz-h1: 3rem;
  --fsz-h2: 1.8rem;
  --fsz-h3: 1.5rem;
+ /** Spacing  */
+ --space: 1rem;
 }
