@@ -62,3 +62,21 @@
  }
 
 }
+.informations{
+  & a:first-child::before{
+    content:"";
+    background-image: url(../../imgs/icon-mail.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+  }
+  & a:last-child::before{
+    content:"";
+    background-image: url(../../imgs/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+  }
+}

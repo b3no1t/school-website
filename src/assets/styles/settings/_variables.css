@@ -9,17 +9,24 @@
  --primary-color:#1561AD;
  --secondary-color: #1C77AC;
  --accent-color: #FC5226;
+
 /** UI */
  --primary-ui-color: #f6f0E1;
  --primary-ui-color-50: hsla(43, 54%, 92%, 0.482);
  --secondary-ui-color: #3E4551;
  --tertiary-ui-color: #2C3037;
+
 /** Shadow  */
  --shadow-medium: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06); 
+
  /** Font-Size */
  --fsz-h1: 3rem;
  --fsz-h2: 1.8rem;
  --fsz-h3: 1.5rem;
+
  /** Spacing  */
  --space: 1rem;
+
+ /** hero overlayer  */
+ --overlayer: hsla(0, 0%, 0%, 0.25);
 }
