@@ -13,7 +13,7 @@
  @import "base/_fonts.css"                      layer(fonts);
  @import "comps/_cards.css"                      layer(comps);
  @import "comps/_card.css"                      layer(comps);
- @import "layouts/_layout.css"                   layer(layout);
+ @import "layouts/_layout.css"                  layer(layout);
  @import "comps/_header.css"               layer(comps);
  @import "comps/_frame.css"               layer(comps);
  @import "comps/_title.css"               layer(comps);
@@ -23,6 +23,7 @@
  @import "comps/_toolbar.css"              layer(comps);
  @import "comps/_hero.css"                 layer(comps);
  @import "comps/_scroll-down.css"              layer(comps);
+ @import "layouts/_sections.css"                layer(layout);
  @import "comps/_footer.css"               layer(comps);
 
 

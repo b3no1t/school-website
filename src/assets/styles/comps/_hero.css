@@ -3,7 +3,7 @@
 */
 .hero {
   padding-top: var(--space);
-  height: 100vh;
+  min-height: 100vh;
 }
 .hero__navigation {
   display: flex;

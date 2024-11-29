@@ -2,8 +2,23 @@
 * Frame 
 */
 
-.frame{}
-.frame__image{}
+.frame{
+ width: 100%;
+ height: 100%;
+ display: grid;
+ place-items: center;
+}
+.frame__image{
+ background: url(../../imgs/qui.jpg);
+ background-size: cover;
+}
 .frame__title{}
-.frame__content{}
+.frame__content{
+ background-color: #ffffff94;
+ height: 90%;
+ width: 95%;
+ padding: 4rem;
+
+ 
+}
 .frame__cta{}
