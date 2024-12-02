@@ -23,6 +23,7 @@
 @import "comps/_toolbar.css" layer(comps);
 @import "comps/_hero.css" layer(comps);
 @import "comps/_scroll-down.css" layer(comps);
+@import "comps/_rgpd.css" layer(comps);
 @import "layouts/_sections.css" layer(layout);
 @import "comps/_footer.css" layer(comps);
 
