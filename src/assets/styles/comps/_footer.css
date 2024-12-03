@@ -4,6 +4,8 @@
 
 footer{
  min-height: 250px;
+ background-color: var(--secondary-ui-color);
+
 }
 
 .footer__copyright{}
@@ -13,11 +15,33 @@ footer{
  width: 100vw;
 
 }
+
+
 .footer__nav{
 display: flex;
 flex-direction: column;
- background-color: var(--tertiary-ui-color);
+align-items: center;
+background-color: var(--tertiary-ui-color);
+
 }
+.footer__nav{
+
+ & nav{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 100%;
+ }
+
+  & ul{
+  list-style-type: none;
+
+ }
+ & a{
+  color:white;
+  font-size: var(--fsz-h4);
+ }
+}
+
 .footer__informations{
- background-color: var(--secondary-ui-color);
 }

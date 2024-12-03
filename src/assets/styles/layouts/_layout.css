@@ -12,25 +12,22 @@
  * - grid-template-columns: Defines a single column layout with flexible width.
  * - grid-template-rows: Defines three equal rows within the grid.
  */
-.wrapper {
+.wrapper {	
 	width: 100%;
-	/* max-width: 1440px; */
-	max-width: 120ch;
-	margin: 0 auto;
 
 	display: grid;
 
-	grid-template-columns: 1fr;
+	grid-template-rows:  1fr auto;
 	grid-gap: var(--space);
 }
-header,
-main,
-footer {
-	grid-column-start: 1;
-	grid-column-end: -1;
+header{
+	margin: 0 auto;
+	width: 100%;
 }
 .container {
 	margin-inline: 3rem;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 .hero .container {
 	display: flex;

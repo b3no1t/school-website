@@ -3,13 +3,15 @@
 */
 
 .btn {
+ box-sizing: border-box;
+ 
  --gap-inline: 1.25rem;
  --gap-block: 0.7rem;
  --cta-size: 1.2rem;
  --ease-scroll: 0.455, 0.03, 0.515, 0.955;
  
  margin-bottom: 1rem;
- padding: var(--gap-block) var(--gap-inline);
+ padding: 0.7rem var(--gap-inline);
  transform: scale(1);
  border-radius: 0.35rem;
  background-color: var(--primary-color);
@@ -20,11 +22,13 @@
  transform-origin: center center;
  width: fit-content;
  box-shadow: var(--shadow-medium);
+
  &:hover {
   background-color: var(--secondary-color);
   transform: scale(1.15);
   /* padding-block: calc(var(--gap-block) * 2) calc(var(--gap-inline) * 2); */
  }
+
 }
 .btn__lg {
  --cta-size: 1.25rem;

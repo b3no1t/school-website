@@ -7,10 +7,12 @@
 		<link rel="stylesheet" href="./assets/styles/app.css" />
 	</head>
 	<body>
+
+		<!--  BEGIN: hero ----------------------- -->
 		<header class="hero hero__image">
 			<div class="container">
 				<div style="width: 100%">
-					<!--  BEGIN: toolbar= -->
+					<!--  BEGIN: toolbar -->
 					<div class="hero__toolbar">
 						<div class="informations">
 							<a href="mailto:#">jane.doe@leaderoftomorrow.com</a>
@@ -18,8 +20,8 @@
 						</div>
 						<div class="lang"><a href="#">FR</a></div>
 					</div>
-					<!--  =toolbar= -->
-
+					<!--  END: toolbar -->
+					<!--  BEGIN: Navigation -->
 					<div class="hero__navigation">
 						<div class="logo">
 							<svg
@@ -53,7 +55,6 @@
 								</g>
 							</svg>
 						</div>
-
 						<nav>
 							<ul class="nav__menu">
 								<li><a href="#" class="nav__link">ACCUEIL</a></li>
@@ -65,6 +66,7 @@
 							</ul>
 						</nav>
 					</div>
+					<!--  END: Navigation -->
 				</div>
 				<div class="hero__content">
 					<h1 class="hero__title">Exactement!</h1>
@@ -81,6 +83,7 @@
 				</div>
 				<a href="#services" class="scroll-down" aria-label="content"> </a>
 			</div>
+			<!--  BEGIN: RGPD's banner -->
 			<div class="rgpd">
 				<div>
 					<h3>RGPD</h3>
@@ -90,14 +93,20 @@
 						aliquid. Voluptates ipsum amet quae, explicabo facere ab sit aliquam.
 					</p>
 				</div>
-				
-				<a href="#" class="close" onclick="document.querySelector('.rgpd').remove()" >
+				<a
+					href="#"
+					class="close"
+					onclick="document.querySelector('.rgpd').remove()"
+				>
 					<!-- <span>&#10540;</span> -->
-					 </a>
-	
+				</a>
 			</div>
+			<!--  END: RGPD's banner -->
 		</header>
+		<!--  END: hero ------------------------- -->
+		
 		<div class="wrapper">
+			<!-- BEGIN: main----------------------- -->
 			<main>
 				<section class="services" id="services">
 					<div class="container">
@@ -195,24 +204,40 @@
 					</div>
 				</section>
 			</main>
+			<!-- END: main-------------------------- -->
+
+<!-- BEGIN: footer ----------------------- -->
+			<footer>
+				<div class="footer__nav">
+					<div class="logo">
+						<img src="./assets/imgs/logo.svg" alt="le logo de l'école Exactement!" />
+					</div>
+					<nav>
+						<ul>
+							<li><a href="#">item nav</a></li>
+							<li><a href="#">item nav</a></li>
+							<li><a href="#">item nav</a></li>
+							<li><a href="#">item nav</a></li>
+							<li><a href="#">item nav</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="toolbox">
+					<div class="informations">
+						<ul>
+							<li>
+								<a href="mailto:#">jane.doe@leaderoftomorrow.com</a>
+							</li>
+							<li>
+								<a href="tel:#">0041-(0)12/345 67 89</a>
+							</li>
+						</ul>
+					</div>
+					<div class="copyright">copyright 2024</div>
+				</div>
+			</footer>
+<!-- END: footer -------------------------- -->
+	
 		</div>
-		<footer>
-			<div class="footer__nav">
-				<div class="logo"></div>
-				<nav>
-					<ul>
-						<li><a href="#">item nav</a></li>
-						<li><a href="#">item nav</a></li>
-						<li><a href="#">item nav</a></li>
-						<li><a href="#">item nav</a></li>
-						<li><a href="#">item nav</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="toolbox">
-				<div class="informations"></div>
-				<div class="copyright">copyright 2024</div>
-			</div>
-		</footer>
 	</body>
 </html>

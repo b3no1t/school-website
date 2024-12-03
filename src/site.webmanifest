@@ -1,7 +1,6 @@
-// TODO : modifier le manifeste de l'application
 {
-  "short_name": "starter kit",
-  "name": "starter kit v1",
+  "short_name": "school app",
+  "name": "Schoool App",
   "icons": [
     {
       "src": "icon.png",
