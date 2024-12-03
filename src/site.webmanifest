@@ -1,6 +1,6 @@
 {
-  "short_name": "school app",
-  "name": "Schoool App",
+  "short_name": "school",
+  "name": "School App",
   "icons": [
     {
       "src": "icon.png",

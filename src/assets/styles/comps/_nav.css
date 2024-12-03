@@ -8,6 +8,7 @@ nav{
  width: 100%;
  
 }
+
 text.baseline {
   /* svg logo */
   text-anchor: start;
@@ -28,7 +29,9 @@ text.baseline {
  color: white;
  text-transform: uppercase;
  &.is-active{
-  color: var(--primary-ui-color-50);
+  color: var(--accent-color);
+  text-decoration: underline; 
+
  }
  &:hover{
  color: var(--primary-ui-color-50);

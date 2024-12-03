@@ -19,6 +19,7 @@
 
 	grid-template-rows:  1fr auto;
 	grid-gap: var(--space);
+
 }
 header{
 	margin: 0 auto;

@@ -47,3 +47,4 @@ SECTION:
 - Section
 - `.footer__informations`
 - `.footer__copyright`
+
